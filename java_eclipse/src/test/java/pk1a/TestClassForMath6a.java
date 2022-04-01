@@ -39,7 +39,7 @@ public void testSummaTest6() throws InterruptedException {
        Assert.assertEquals("Result", 17, tester.summa(12, 5));
 //dddddd
 }
-public void testDifferenceTest6() throws InterruptedException {
+public void testDifferenceTest6Second() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
     System.out.println("4");
 	 Thread.sleep(10000);
