@@ -8,7 +8,7 @@ import junit.framework.*;
 
 
 
-public class TestClassForMath5 extends TestCase {
+public class TestClassForMath5a extends TestCase {
 
         public void testMultXxxx5()  throws InterruptedException {
             ClassForMath tester = new ClassForMath();
