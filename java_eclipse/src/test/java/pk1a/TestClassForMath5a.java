@@ -53,7 +53,7 @@ public void testDifferenceXxx5a() throws InterruptedException {
        Assert.assertEquals("Result", 6, tester.difference(12, 5));
 
 }
-public void testDifferenceXxx5a() throws InterruptedException {
+public void testDifference5Xxx5a() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
        Assert.assertEquals("Result", 7, tester.difference(12, 5));
