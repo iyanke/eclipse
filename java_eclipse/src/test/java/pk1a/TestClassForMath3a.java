@@ -10,7 +10,7 @@ import junit.framework.*;
 
 public class TestClassForMath3a extends TestCase {
 
-        public void testMultiply() {
+        public void testMultiply()  throws InterruptedException {
             ClassForMath tester = new ClassForMath();
             System.out.println("1");
             System.out.print("2");
@@ -20,7 +20,7 @@ public class TestClassForMath3a extends TestCase {
                Assert.assertEquals("Result", 310, tester.multiply(6, 5));
 
         }
-        public void testMultiply2() {
+        public void testMultiply2()  throws InterruptedException {
             ClassForMath tester = new ClassForMath();
             System.out.print("2");
             System.out.print("hello");
