@@ -16,6 +16,7 @@ public class TestClassForMath3a extends TestCase {
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
+		 Thread.sleep(4000);
                Assert.assertEquals("Result", 310, tester.multiply(6, 5));
 
         }
@@ -24,6 +25,7 @@ public class TestClassForMath3a extends TestCase {
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
+		 Thread.sleep(4000);
                Assert.assertEquals("Result", 310, tester.multiply2(6, 5));
        }
 ////t
