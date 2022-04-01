@@ -8,7 +8,7 @@ import junit.framework.*;
 
 
 
-public class TestClassForMath6 extends TestCase {
+public class TestClassForMath6a extends TestCase {
 
         public void testMultTest6()  throws InterruptedException {
             ClassForMath tester = new ClassForMath();
@@ -53,7 +53,7 @@ public void testDifferenceTest6() throws InterruptedException {
        Assert.assertEquals("Result", 6, tester.difference(12, 5));
 
 }
-public void testDifferenceXxx5a() throws InterruptedException {
+public void testDifferenceTest6() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
        Assert.assertEquals("Result", 7, tester.difference(12, 5));
