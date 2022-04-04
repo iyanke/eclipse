@@ -43,7 +43,7 @@ public void testDifferenceXxx7() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
     System.out.println("4");
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 8, tester.difference(12, 5));
+       Assert.assertEquals("Result", 9, tester.difference(12, 5));
 
 }
 public void testDifferenceXxx7a() throws InterruptedException {
