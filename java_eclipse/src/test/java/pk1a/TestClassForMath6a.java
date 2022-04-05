@@ -17,7 +17,7 @@ public class TestClassForMath6a extends TestCase {
             System.out.print("hello");
             System.err.print("hello again");
 		 Thread.sleep(10000);
-               Assert.assertEquals("Result", 31, tester.multiply(6, 5));
+               Assert.assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
         public void testMultyTest6()  throws InterruptedException {
@@ -62,7 +62,7 @@ public void testDifferenceTest6() throws InterruptedException {
 public void testDivisionTest6() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 7, tester.division(8,1));}
+       Assert.assertEquals("Result", 8, tester.division(8,1));}
 
 public void testDoubleSummaTest6() throws InterruptedException {
 	//dfdfdfsfsdfsfdsfsf
