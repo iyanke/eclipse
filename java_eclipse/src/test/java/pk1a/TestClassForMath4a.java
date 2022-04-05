@@ -36,7 +36,7 @@ public void testSummaFor4a() throws InterruptedException {
     System.out.println("3");
 	 Thread.sleep(10000);
     
-       Assert.assertEquals("Result", 18, tester.summa(12, 5));
+       Assert.assertEquals("Result", 17, tester.summa(12, 5));
 //dddddd
 }
 public void testDifferenceFor4a() throws InterruptedException {
@@ -58,7 +58,7 @@ public void testDifference2For4a() throws InterruptedException {
 public void testDifference1For4a() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 8, tester.difference(12, 5));
+       Assert.assertEquals("Result", 7, tester.difference(12, 5));
 
 }
 public void testDivisionFor4a() throws InterruptedException {
@@ -71,14 +71,14 @@ public void testDoubleSummaFor4a() throws InterruptedException {
 	//dfsfdfsdfdfsdfsff
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 35, tester.double_summa(12, 5));
+       Assert.assertEquals("Result", 34, tester.double_summa(12, 5));
        //zzxzxzxzxzxzxzxzxzxzx
        
 }
 public void testTripleSummaFor4a() throws InterruptedException
 {ClassForMath test1= new ClassForMath();
   Thread.sleep(10000);
-Assert.assertEquals("Result", 11, test1.triple_summa(2,2) );
+Assert.assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
 
 
