@@ -27,8 +27,10 @@
             <version>2.19.1</version>
             <configuration>
                 <excludes>
-                    <exclude>**/*6*.java</exclude>
+                     <exclude>**/*Test5|6*.java</exclude>
                  </excludes>
+                     
+
                            </configuration>
         </plugin>
     </plugins>
