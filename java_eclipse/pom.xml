@@ -21,12 +21,18 @@
         </dependency>
        </dependencies>
  <build>
-    <plugins>
+   <plugins>
         <plugin>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.19.1</version>
-            </plugin>
+            <configuration>
+                <excludes>
+                    <exclude>**/*6*.java</exclude>
+                 </excludes>
+                           </configuration>
+        </plugin>
     </plugins>
+</build>
 </build>
     
 </project>
