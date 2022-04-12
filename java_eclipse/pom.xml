@@ -27,7 +27,7 @@
             <version>2.19.1</version>
             <configuration>
                 <excludes>
-                     <exclude>**/*Test5|6*.java</exclude>
+                     <exclude>**/*Test(5|6)*.java</exclude>
                  </excludes>
                      
 
