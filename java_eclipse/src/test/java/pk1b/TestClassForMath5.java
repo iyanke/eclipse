@@ -24,7 +24,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestClassForMath5 {
 
-        public void testMultiply() {
+@Test        public void testMultiply5b() {
             ClassForMath tester = new ClassForMath();
             System.out.println("1");
             System.out.print("2");
@@ -42,15 +42,15 @@ public class TestClassForMath5 {
        }
 ////t
 
-public void testSumma() {
+@Test public void testSumma5b() {
 	
     ClassForMath tester = new ClassForMath();
     System.out.println("3");
     
-       assertEquals("Result", 17, tester.summa(12, 5));
+       assertEquals("Result", 11, tester.summa(12, 5));
 //dddddd
 }
-public void testDifference() {
+@Test public void testDifference5b() {
     ClassForMath tester = new ClassForMath();
     System.out.println("4");
        assertEquals("Result", 7, tester.difference(12, 5));
