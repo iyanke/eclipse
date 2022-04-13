@@ -50,7 +50,7 @@ public void testSumma() {
        assertEquals("Result", 17, tester.summa(12, 5));
 //dddddd
 }
-@Test public void testDifference() {
+@Test public void testDifference() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
     System.out.println("4");
 	 Thread.sleep(10000);
@@ -93,8 +93,8 @@ assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
 
 
-@Test @Ignore public void testTripleSumma3()
-{ClassForMath test1= new ClassForMath();
+@Test @Ignore public void testTripleSumma3() throws InterruptedException {
+	ClassForMath test1= new ClassForMath();
   Thread.sleep(10000);
 assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
