@@ -68,6 +68,7 @@ public void testDifference1() {
 }
 @Test @Ignore public void testDivision() {
     ClassForMath tester = new ClassForMath();
+	 Thread.sleep(10000);
        assertEquals("Result", 8, tester.division(8,1));}
 
 @Test @Ignore public void testDoubleSumma() {
