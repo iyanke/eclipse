@@ -26,10 +26,11 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.19.1</version>
             <configuration>
-                <excludes>
-                     <exclude>**/*Test(5|6)*.java</exclude>
-                 </excludes>
-                     
+               
+        <includes>
+            <include>%regex[*k.*Test*.*]</include>
+          </includes>
+        </configuration>             
 
                            </configuration>
         </plugin>
