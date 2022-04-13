@@ -28,7 +28,7 @@
             <configuration>
                
         <includes>
-            <include>%regex[*k.*Test*.*]</include>
+            <include>%regex[*1a.*Test*.java]</include>
           </includes>
         </configuration>             
 
