@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
 
  public class TestClassForMath7 {
 
-   @Test     public void testMultiply() {
+   @Test     public void testMultiply() throws InterruptedException {
             ClassForMath tester = new ClassForMath();
             System.out.println("1");
             System.out.print("2");
@@ -61,12 +61,13 @@ public void testDifference2() {
        assertEquals("Result", 7, tester.difference(12, 5));
 
 }
-public void testDifference1() {
+@Test public void testDifference1() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
+	Thread.sleep(10000);
        assertEquals("Result", 7, tester.difference(12, 5));
 
 }
-@Test @Ignore public void testDivision() {
+@Test @Ignore public void testDivision() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
        assertEquals("Result", 8, tester.division(8,1));}
@@ -86,7 +87,7 @@ assertEquals("Result", 12, test1.triple_summa(2,2) );
 
 
 
-@Test @Ignore public void testTripleSumma2()
+@Test @Ignore public void testTripleSumma2 throws InterruptedException ()
 {ClassForMath test1= new ClassForMath();
   Thread.sleep(10000);
 assertEquals("Result", 12, test1.triple_summa(2,2) );
