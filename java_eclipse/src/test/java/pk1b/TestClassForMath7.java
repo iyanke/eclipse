@@ -18,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 //fff\
 ////yyyyy
 
-public class TestClassForMath7 {
+@Test public class TestClassForMath7 {
 
         public void testMultiply() {
             ClassForMath tester = new ClassForMath();
@@ -26,6 +26,7 @@ public class TestClassForMath7 {
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
+		 Thread.sleep(10000);
                assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
@@ -86,6 +87,7 @@ assertEquals("Result", 12, test1.triple_summa(2,2) );
 
 @Test @Ignore public void testTripleSumma2()
 {ClassForMath test1= new ClassForMath();
+  Thread.sleep(10000);
 assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
 
