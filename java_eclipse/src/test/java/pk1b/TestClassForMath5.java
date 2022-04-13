@@ -33,7 +33,7 @@ public class TestClassForMath5 {
                assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
-public void testMultiply2() {
+@Test public void testMultiply25b() {
             ClassForMath tester = new ClassForMath();
             System.out.print("2");
             System.out.print("hello");
