@@ -27,7 +27,7 @@
             <version>2.19.1</version>
             <configuration>
              <includes>
-            <include>%regex[.*1.*Test*.*]</include>
+            <include>%regex[.*1a.*Test*.*]</include>
           </includes>
         </configuration>             
                </plugin>
