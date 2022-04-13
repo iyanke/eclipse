@@ -30,6 +30,7 @@ public class TestClassForMath3 {
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
+		 Thread.sleep(10000);
                assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
@@ -61,6 +62,7 @@ public class TestClassForMath3 {
 	//sdfsdfsdfsdfsdf
 	//dfkdkfjskfjsldkfjslkdjflskjflksdjfsf
     ClassForMath tester = new ClassForMath();
+	 Thread.sleep(10000);
        assertEquals("Result", 7, tester.difference(12, 5));
 
 }
