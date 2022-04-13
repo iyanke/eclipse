@@ -87,7 +87,7 @@ assertEquals("Result", 12, test1.triple_summa(2,2) );
 
 
 
-@Test @Ignore public void testTripleSumma2 throws InterruptedException {
+@Test @Ignore public void testTripleSumma2() throws InterruptedException {
 ClassForMath test1= new ClassForMath();
   Thread.sleep(10000);
 assertEquals("Result", 12, test1.triple_summa(2,2) );
