@@ -24,7 +24,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestClassForMath {
 
-        public void testMultiplyLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongName() {
+        @Test public void testMultiplyLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongName() {
             ClassForMath tester = new ClassForMath();
             System.out.println("1");
             System.out.print("2");
@@ -34,7 +34,7 @@ public class TestClassForMath {
 
         }
 	
- public void testMultiply2() {
+@Test public void testMultiply2() {
             ClassForMath tester = new ClassForMath();
             System.out.print("2");
             System.out.print("hello");
