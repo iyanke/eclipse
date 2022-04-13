@@ -22,9 +22,9 @@ import static org.junit.Assert.assertEquals;
 //fff\
 ////yyyyy
 
-public class TestClassForMath3 throws InterruptedException {
+public class TestClassForMath3  {
 
-        public void testMultiply() {
+        public void testMultiply() throws InterruptedException {
             ClassForMath tester = new ClassForMath();
             System.out.println("1");
             System.out.print("2");
