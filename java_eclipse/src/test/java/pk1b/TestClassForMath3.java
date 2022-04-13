@@ -22,7 +22,7 @@ import static org.junit.Assert.assertEquals;
 //fff\
 ////yyyyy
 
-public class TestClassForMath3 {
+public class TestClassForMath3 throws InterruptedException {
 
         public void testMultiply() {
             ClassForMath tester = new ClassForMath();
@@ -57,7 +57,7 @@ public class TestClassForMath3 {
        assertEquals("Result", 7, tester.difference(12, 5));
 
 }
-@Test @Ignore public void testDifference2() {
+@Test @Ignore public void testDifference2() throws InterruptedException {
 //sdfsfdfsdfdfsdf
 	//sdfsdfsdfsdfsdf
 	//dfkdkfjskfjsldkfjslkdjflskjflksdjfsf
