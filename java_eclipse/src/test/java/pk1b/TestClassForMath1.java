@@ -1,4 +1,4 @@
-package test.java.pk1;
+package test.java.pk1b;
 
 import main.java.pk1.ClassForMath;
 

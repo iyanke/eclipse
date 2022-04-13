@@ -1,4 +1,4 @@
-package test.java.pk1;
+package test.java.pk1b;
 
 import main.java.pk1.ClassForMath;
 
@@ -22,37 +22,27 @@ import static org.junit.Assert.assertEquals;
 //fff\
 ////yyyyy
 
-public class TestClassForMath {
+public class TestClassForMath13 {
 
-        public void testMultiplyLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongNameLongName() {
+        public void testMultiply() {
             ClassForMath tester = new ClassForMath();
             System.out.println("1");
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
-               assertEquals("Result", 31, tester.multiply(6, 5));
+               assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
-	
- public void testMultiply2() {
+@Test @Ignore public void testMultiply2() {
             ClassForMath tester = new ClassForMath();
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
-               assertEquals("Result", 31, tester.multiply2(6, 5));
+               assertEquals("Result", 30, tester.multiply2(6, 5));
        }
 ////t
 
-@Test @Ignore public void testSumma() {
-	
-    ClassForMath tester = new ClassForMath();
-    System.out.println("3");
-    
-       assertEquals("Result", 18, tester.summa(12, 5));
-//dddddd
-}
-	
-	@Test public void IgnoS() {
+public void testSumma() {
 	
     ClassForMath tester = new ClassForMath();
     System.out.println("3");
@@ -60,10 +50,10 @@ public class TestClassForMath {
        assertEquals("Result", 17, tester.summa(12, 5));
 //dddddd
 }
-@Test @Ignore public void testDifference() {
+public void testDifference() {
     ClassForMath tester = new ClassForMath();
     System.out.println("4");
-       assertEquals("Result", 8, tester.difference(12, 5));
+       assertEquals("Result", 7, tester.difference(12, 5));
 
 }
 public void testDifference2() {
@@ -74,7 +64,7 @@ public void testDifference2() {
        assertEquals("Result", 7, tester.difference(12, 5));
 
 }
-@Test @Ignore public void testDifference1() {
+public void testDifference1() {
     ClassForMath tester = new ClassForMath();
        assertEquals("Result", 7, tester.difference(12, 5));
 
@@ -93,20 +83,18 @@ public void testDifference2() {
 }
 @Test @Ignore public void testTripleSumma()
 {ClassForMath test1= new ClassForMath();
-assertEquals("Result", 11, test1.triple_summa(2,2) );
+assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
-
-
 
 @Test @Ignore public void testTripleSumma2()
 {ClassForMath test1= new ClassForMath();
-assertEquals("Result", 11, test1.triple_summa(2,2) );
+assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
 
 
 @Test @Ignore public void testTripleSumma3()
 {ClassForMath test1= new ClassForMath();
-assertEquals("Result", 13, test1.triple_summa(2,2) );
+assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
-}	
 
+}

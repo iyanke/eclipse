@@ -1,4 +1,4 @@
-package test.java.pk1;
+package test.java.pk1b;
 
 import main.java.pk1.ClassForMath;
 
@@ -18,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 //fff\
 ////yyyyy
 
-public class TestClassForMath7 {
+public class TestClassForMath6 {
 
         public void testMultiply() {
             ClassForMath tester = new ClassForMath();

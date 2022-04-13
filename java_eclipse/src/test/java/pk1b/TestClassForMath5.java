@@ -1,4 +1,4 @@
-package test.java.pk1;
+package test.java.pk1b;
 
 import main.java.pk1.ClassForMath;
 
@@ -22,7 +22,7 @@ import static org.junit.Assert.assertEquals;
 //fff\
 ////yyyyy
 
-public class TestClassForMath2 {
+public class TestClassForMath5 {
 
         public void testMultiply() {
             ClassForMath tester = new ClassForMath();
@@ -33,7 +33,7 @@ public class TestClassForMath2 {
                assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
-@Test @Ignore public void testMultiply2() {
+public void testMultiply2() {
             ClassForMath tester = new ClassForMath();
             System.out.print("2");
             System.out.print("hello");
@@ -42,7 +42,7 @@ public class TestClassForMath2 {
        }
 ////t
 
-@Test @Ignore public void testSumma() {
+public void testSumma() {
 	
     ClassForMath tester = new ClassForMath();
     System.out.println("3");
@@ -50,13 +50,13 @@ public class TestClassForMath2 {
        assertEquals("Result", 17, tester.summa(12, 5));
 //dddddd
 }
-@Test @Ignore public void testDifference() {
+public void testDifference() {
     ClassForMath tester = new ClassForMath();
     System.out.println("4");
        assertEquals("Result", 7, tester.difference(12, 5));
 
 }
-@Test @Ignore public void testDifference2() {
+public void testDifference2() {
 //sdfsfdfsdfdfsdf
 	//sdfsdfsdfsdfsdf
 	//dfkdkfjskfjsldkfjslkdjflskjflksdjfsf
@@ -64,7 +64,7 @@ public class TestClassForMath2 {
        assertEquals("Result", 7, tester.difference(12, 5));
 
 }
-@Test @Ignore public void testDifference1() {
+public void testDifference1() {
     ClassForMath tester = new ClassForMath();
        assertEquals("Result", 7, tester.difference(12, 5));
 
@@ -87,7 +87,6 @@ assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
 
 
-
 @Test @Ignore public void testTripleSumma2()
 {ClassForMath test1= new ClassForMath();
 assertEquals("Result", 12, test1.triple_summa(2,2) );
@@ -98,5 +97,5 @@ assertEquals("Result", 12, test1.triple_summa(2,2) );
 {ClassForMath test1= new ClassForMath();
 assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
-}
 
+}

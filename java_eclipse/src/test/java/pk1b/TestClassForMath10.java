@@ -1,4 +1,4 @@
-package test.java.pk1;
+package test.java.pk1b;
 
 import main.java.pk1.ClassForMath;
 
@@ -9,11 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 
 /**
- * Created by IntelliJ IDEA.
- * User: Elena.Pogorelova
- * Date: 9/23/11
- * Time: 12:50 PM
- * To change this template use File | Settings | File Templates.
+  Templates.
  */
 
 
@@ -22,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 //fff\
 ////yyyyy
 
-public class TestClassForMath11 {
+public class TestClassForMath10 {
 
         public void testMultiply() {
             ClassForMath tester = new ClassForMath();
@@ -30,15 +26,15 @@ public class TestClassForMath11 {
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
-               assertEquals("Result", 31, tester.multiply(6, 5));
+               assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
-@Test @Ignore public void testMultiply2() {
+public void testMultiply2() {
             ClassForMath tester = new ClassForMath();
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
-               assertEquals("Result", 31, tester.multiply2(6, 5));
+               assertEquals("Result", 30, tester.multiply2(6, 5));
        }
 ////t
 
@@ -47,7 +43,7 @@ public void testSumma() {
     ClassForMath tester = new ClassForMath();
     System.out.println("3");
     
-       assertEquals("Result", 18, tester.summa(12, 5));
+       assertEquals("Result", 17, tester.summa(12, 5));
 //dddddd
 }
 public void testDifference() {
@@ -61,7 +57,7 @@ public void testDifference2() {
 	//sdfsdfsdfsdfsdf
 	//dfkdkfjskfjsldkfjslkdjflskjflksdjfsf
     ClassForMath tester = new ClassForMath();
-       assertEquals("Result", 8, tester.difference(12, 5));
+       assertEquals("Result", 7, tester.difference(12, 5));
 
 }
 public void testDifference1() {
@@ -85,6 +81,8 @@ public void testDifference1() {
 {ClassForMath test1= new ClassForMath();
 assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
+
+
 
 @Test @Ignore public void testTripleSumma2()
 {ClassForMath test1= new ClassForMath();
