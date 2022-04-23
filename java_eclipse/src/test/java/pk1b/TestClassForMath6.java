@@ -43,13 +43,13 @@ public void testMultiply2() {
     ClassForMath tester = new ClassForMath();
     System.out.println("3");
     
-       assertEquals("Result", 18, tester.summa(12, 5));
+       assertEquals("Result", 17, tester.summa(12, 5));
 //dddddd
 }
 @Test public void testDifference6b() {
     ClassForMath tester = new ClassForMath();
     System.out.println("4");
-       assertEquals("Result", 4, tester.difference(12, 5));
+       assertEquals("Result", 7, tester.difference(12, 5));
 
 }
 public void testDifference2() {
