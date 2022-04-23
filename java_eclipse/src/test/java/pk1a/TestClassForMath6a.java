@@ -1,4 +1,4 @@
-package test.java.pk1;
+package test.java.pk1a;
 
 import main.java.pk1.ClassForMath;
 import junit.framework.*;
@@ -43,7 +43,7 @@ public void testDifferenceTest6Second() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
     System.out.println("4");
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 8, tester.difference(12, 5));
+       Assert.assertEquals("Result", 17, tester.difference(12, 5));
 
 }
 public void testDifferencesTest6() throws InterruptedException {
