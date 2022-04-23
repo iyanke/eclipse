@@ -30,7 +30,7 @@ public class TestClassForMath {
             System.out.print("2");
             System.out.print("hello");
             System.err.print("hello again");
-               assertEquals("Result", 31, tester.multiply(6, 5));
+               assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
 	
