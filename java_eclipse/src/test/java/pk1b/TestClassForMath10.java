@@ -57,7 +57,7 @@ public void testDifference2() {
 	//sdfsdfsdfsdfsdf
 	//dfkdkfjskfjsldkfjslkdjflskjflksdjfsf
     ClassForMath tester = new ClassForMath();
-       assertEquals("Result", 7, tester.difference(12, 5));
+       assertEquals("Result", 8, tester.difference(12, 5));
 
 }
 public void testDifference1() {
