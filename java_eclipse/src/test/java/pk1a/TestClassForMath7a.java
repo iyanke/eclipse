@@ -26,7 +26,7 @@ public class TestClassForMath7a extends TestCase {
             System.out.print("hello");
             System.err.print("hello again");
 		 Thread.sleep(10000);
-               Assert.assertEquals("Result", 31, tester.multiply2(6, 5));
+               Assert.assertEquals("Result", 30, tester.multiply2(6, 5));
        }
 ////t
 
@@ -36,21 +36,21 @@ public void testSummaXxxx7() throws InterruptedException {
     System.out.println("3");
 	 Thread.sleep(10000);
     
-       Assert.assertEquals("Result", 18, tester.summa(12, 5));
+       Assert.assertEquals("Result", 17, tester.summa(12, 5));
 //dddddd
 }
 public void testDifferenceXxx7() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
     System.out.println("5");
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 9, tester.difference(12, 5));
+       Assert.assertEquals("Result", 7, tester.difference(12, 5));
 
 }
 public void testDifferenceXxx7a() throws InterruptedException {
 //sdfsfdfsdfdfsdf
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 6, tester.difference(12, 5));
+       Assert.assertEquals("Result", 7, tester.difference(12, 5));
 
 }
 public void testDifference7Xxx7a() throws InterruptedException {
@@ -69,14 +69,14 @@ public void testDoubleSummaXxx7() throws InterruptedException {
 	//dfsfdfsdfdfsdfsff
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 37, tester.double_summa(12, 5));
+       Assert.assertEquals("Result", 34, tester.double_summa(12, 5));
        //zzxzxzxzxzxzxzxzxzxzx
        
 }
 public void testTripleSummaXxx7() throws InterruptedException
 {ClassForMath test1= new ClassForMath();
   Thread.sleep(10000);
-Assert.assertEquals("Result", 13, test1.triple_summa(2,2) );
+Assert.assertEquals("Result", 12, test1.triple_summa(2,2) );
 	}
 
 
