@@ -17,7 +17,7 @@ public class TestClassForMath9 extends TestCase {
             System.out.print("hello");
             System.err.print("hello again");
 		 Thread.sleep(10000);
-               Assert.assertEquals("Result", 31, tester.multiply(6, 5));
+               Assert.assertEquals("Result", 30, tester.multiply(6, 5));
 
         }
         public void testMultXxx9()  throws InterruptedException {
