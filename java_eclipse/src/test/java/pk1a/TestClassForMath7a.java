@@ -62,7 +62,7 @@ public void testDifference7Xxx7a() throws InterruptedException {
 public void testDivisionXxx7() throws InterruptedException {
     ClassForMath tester = new ClassForMath();
 	 Thread.sleep(10000);
-       Assert.assertEquals("Result", 7, tester.division(8,1));}
+       Assert.assertEquals("Result", 8, tester.division(8,1));}
 
 public void testDoubleSummaXxx7() throws InterruptedException {
 	//dfdfdfsfsdfsfdsfsf
